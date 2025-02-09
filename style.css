@@ -1,0 +1,27 @@
+body { background-color: #e0e0e0; user-select: none; }
+
+#contentFrame {
+    width: 50%; height: 50%; background-color: #fff;
+    position: fixed; transform: translate(-50%, -50%);
+    top: 50%; left: 50%; border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding: 15px; min-width: 288.288px;
+    min-height: 162.162px;
+}
+
+#titleLabel {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%; text-align: center; margin-top: 0;
+}
+
+#buttonFrame {
+    width: fit-content; height: fit-content; position: fixed;
+    transform: translate(-50%, -50%); top: 50%; left: 50%;
+    display: flex; flex-direction: column; gap: 5px;
+}
+
+#startButton, #authorButton {
+    width: 150px; height: 30px; border-radius: 7px;
+    background-color: #0099ff; color: #fff; cursor: pointer;
+    border-style: none;
+}
