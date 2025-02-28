@@ -12,7 +12,7 @@ document.addEventListener("keydown", (event) => {
     if (event.code == "Space" && can_press) { keep_going = false; can_press = false; done(); }
 });
 
-document.addEventListener("click", (event) => {
+document.addEventListener("mousedown", (event) => {
     if (event.button === 0 && can_press) { keep_going = false; can_press = false; done(); }
 });
 
